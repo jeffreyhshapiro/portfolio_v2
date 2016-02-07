@@ -11,3 +11,38 @@
   width: 500px;
   padding: 10px;
 }
+
+#nameHeader {
+  font-size: 24px;
+  text-align: center;
+}
+
+#nameTitle {
+  font-size: 18px;
+  text-align: center;
+}
+
+.intro {
+  padding-top: 100px;
+}
+
+#jeff {
+  width: 400px;
+  height: 333px;
+  vertical-align: middle;
+}
+
+.sectionHeader {
+  background-color: #3e3f3a;
+  height: 62px;
+}
+
+.sectionHeaderText {
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 20px
+}
+
+#scientistPopover {
+  
+}

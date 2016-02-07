@@ -4,7 +4,7 @@
   <title>Jeff Shapiro</title>
 </head>
 <body>
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./home.css">
 
 <nav class="navbar navbar-default">
@@ -17,18 +17,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">jeffreyhshapiro</a>
+      <a class="navbar-brand active" href="#">jeffreyhshapiro</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About me<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About me<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Programming</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><img class="navbarIcon" src="./static/github-icon.png"></a></li>
-        <li><a href="#"><img class="navbarIcon" src="./static/stackoverflow-icon.png"></a></li>
+        <li><a href="#"><img class="navbarIcon" src="./static/images/github-icon.png"></a></li>
+        <li><a href="#"><img class="navbarIcon" src="./static/images/stackoverflow-icon.png"></a></li>
+        <li><a href="#"><img class="navbarIcon" src="./static/images/linkedin-icon.png"></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact me <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -54,10 +55,69 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<section>
+  <div class="panel">
+    <div class="container">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <img src="./static/images/me.jpg" id="jeff">
+      </div>
+      <div class="col-sm-7 col-md-7 col-lg-7 intro">
+        <p id="nameHeader">Jeff Shapiro</p>
+        <p id="nameTitle">Web Developer and Science Professional</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="aboutme">
+  <div class="container-fluid sectionHeader">
+    <div class="sectionHeaderText">About Me</div>
+  </div>
+  <br />
+  <div class="container">
+    <p>Since high school science has been my passion.  I always enjoyed learning about the laws and mechanisms that make the world and life operate.  This passion has led me to an undergraduate degree in Environmental Science, a Masters in Biotechnology, and now to programming.  How does programming fit into the picture?</p>
+    <p>While in grad school I learned about this thing called coding and how it is the stuff of our digital world.  My interest was greatly piqued when reading about all the great things that people have done with it- especially <span><a href='https://www.ted.com/talks/jorge_soto_the_future_of_early_cancer_detection?language=en'>this</a></span> TED talk about early cancer detection!  I hope to be able to bring my knowledge of science to the digital realm to contribute to great healthcare products to ultimately help save peoples lives.</p>
+    <p>I am currently a lab tech for a global pharmaceutical company.  My day to day work looks a lot like <span id="scientistPopover"><a href="./static/images/scientist.jpg">this</a></span>.</p>
+    <p>SKILLS</p>
+  </div>
+</section>
+
+<section id="programming">
+  <div class="container-fluid sectionHeader">
+    <div class="sectionHeaderText">Programming</div>
+  </div>
+  <br />
+  <div class="container">
+    <div class="row">
+      <p>Click on a repo to see what I've been up to!</p>
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="collection">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <table>
+          <thead>
+            <th>Commit message</th>
+            <th>Date</th>
+            <th>Author</th>
+          </thead>
+          <tbody>
+            <tr>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</section>
 
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./static/js/github-api-homework.js"></script>
+<script type="text/javascript" src="./static/js/commits-list.js"></script>
+<script type="text/javascript" src="home.js"></script>
 </body>
 </html>
