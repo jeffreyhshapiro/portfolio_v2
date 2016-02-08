@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(document).on("click", "a", function(e){
+  $(document).on("click", ".collection-item", function(e){
     e.preventDefault();
 
     $.ajax({

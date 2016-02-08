@@ -6,7 +6,7 @@ $(document).ready(function(){
     success: function(repos){
       for (i = 0; i < repos.length; i++){
         var newListItem = buildListGroup(repos[i])
-        $(".collection").append(newListItem);
+        $(".repoRow").append(newListItem);
       }
     },
     error: function(jqXHR, textStatus, errorThrown){
