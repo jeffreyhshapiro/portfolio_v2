@@ -5,7 +5,7 @@
 </head>
 <body>
 <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="./home.css">
+<link rel="stylesheet" type="text/css" href="/css/home.css">
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -28,22 +28,22 @@
         <li><a href="#projects">Projects</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/jeffreyhshapiro" target="_blank"><img class="navbarIcon" src="./static/images/github-icon.png"></a></li>
-        <li><a href="http://stackoverflow.com/users/5510326/wariofan1?tab=profile" target="_blank"><img class="navbarIcon" src="./static/images/stackoverflow-icon.png"></a></li>
-        <li><a href="https://www.linkedin.com/in/jeffreyhshapiro" target="_blank"><img class="navbarIcon" src="./static/images/linkedin-icon.png"></a></li>
+        <li><a href="https://github.com/jeffreyhshapiro" target="_blank"><img class="navbarIcon" src="/images/github-icon.png"></a></li>
+        <li><a href="http://stackoverflow.com/users/5510326/wariofan1?tab=profile" target="_blank"><img class="navbarIcon" src="/images/stackoverflow-icon.png"></a></li>
+        <li><a href="https://www.linkedin.com/in/jeffreyhshapiro" target="_blank"><img class="navbarIcon" src="/images/linkedin-icon.png"></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact me <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <form>
+            <form method="POST" action='/inquiry'>
               <p>Questions, comments or inquiries?</p>
               <div class="form-group">
-                <input class="form-control" type='text' placeholder="Name" />
+                <input class="form-control" type='text' placeholder="Name" name="name" />
               </div>
               <div class="form-group">
-                <input class="form-control" type='email' placeholder="Email" />
+                <input class="form-control" type='email' placeholder="Email" name="email" />
               </div>
               <div class="form-group">
-                <input class="form-control" type='text' placeholder="Message" />
+                <input class="form-control" type='text' placeholder="Message" name="message" />
               </div>
               <div class="form-group">
                 <input class="form-control btn btn-primary" type='submit' />
@@ -60,7 +60,7 @@
   <div class="panel">
     <div class="container">
       <div class="col-sm-5 col-md-5 col-lg-5">
-        <img src="./static/images/me.jpg" id="jeff">
+        <img src="/images/me.jpg" id="jeff">
       </div>
       <div class="col-sm-7 col-md-7 col-lg-7 intro">
         <p id="nameHeader">Jeff Shapiro</p>
@@ -78,7 +78,7 @@
   <div class="container">
     <p>Since high school science has been my passion.  I always enjoyed learning about the laws and mechanisms that make the world and life operate.  This passion has led me to an undergraduate degree in Environmental Science, a Masters in Biotechnology, and now to programming.  How does programming fit into the picture?</p>
     <p>While in grad school I learned about this thing called coding and how it is the stuff of our digital world.  My interest was greatly piqued when reading about all the great things that people have done with it- especially <span><a href='https://www.ted.com/talks/jorge_soto_the_future_of_early_cancer_detection?language=en'>this</a></span> TED talk about early cancer detection!  I hope to be able to bring my knowledge of science to the digital realm to contribute to great healthcare products to ultimately help save peoples lives.</p>
-    <p>I am currently a lab tech for a global pharmaceutical company.  My day to day work looks a lot like <span id="scientistPopover"><a href="./static/images/scientist.jpg">this</a></span>.</p>
+    <p>I am currently a lab tech for a global pharmaceutical company.  My day to day work looks a lot like <span id="scientistPopover"><a href="/images/scientist.jpg">this</a></span>.</p>
     <p>SKILLS</p>
   </div>
 </section>
@@ -120,7 +120,7 @@
   </div>
   <div class="container">
     <div class="col-sm-4" "col-md-4" "col-lg-4">
-      <a href="https://immense-reef-1441.herokuapp.com/" target="_blank"><img src="./static/images/rps.png"></a>
+      <a href="https://immense-reef-1441.herokuapp.com/" target="_blank"><img src="/images/rps.png"></a>
       <div>Rocks, Papers, Scissors</div>
     </div>
   </div>
@@ -130,8 +130,8 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./static/js/github-api-homework.js"></script>
-<script type="text/javascript" src="./static/js/commits-list.js"></script>
-<script type="text/javascript" src="home.js"></script>
+<script type="text/javascript" src="/js/github-api-homework.js"></script>
+<script type="text/javascript" src="/js/commits-list.js"></script>
+<script type="text/javascript" src="/js/home.js"></script>
 </body>
 </html>
