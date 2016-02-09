@@ -43,6 +43,14 @@
   padding-top: 20px
 }
 
-#scientistPopover {
-  
+#scientistDNA:hover {
+    position: relative;
+}
+#scientistDNA:hover:after {
+    content: url(/images/scientist.jpg); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    /*left: 123px; /* change this value to one that suits you */
+    /*top: 56px; /* change this value to one that suits you */
 }
