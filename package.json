@@ -1,0 +1,25 @@
+{
+  "name": "jeff-shapiro-portfolio",
+  "version": "1.0.0",
+  "description": "the portfolio of a rising web dev",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreyhshapiro/portfolio_v2.git"
+  },
+  "author": "Jeff Shapiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreyhshapiro/portfolio_v2/issues"
+  },
+  "homepage": "https://github.com/jeffreyhshapiro/portfolio_v2#readme"
+}
