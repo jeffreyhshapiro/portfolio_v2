@@ -12,6 +12,10 @@ app.get("/", function(req, res) {
   res.sendFile(process.cwd() + "/views/home.html");
 });
 
+app.get("/rps", function(req, res){
+  res.sendFile(process.cwd() + '/public/rps/html/RPS-style-game.html')
+})
+
 app.post('/inquiry', function(req, res){
   console.log(req.body.name);
   console.log(req.body.email);
