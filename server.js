@@ -13,8 +13,8 @@ app.get("/", function(req, res) {
 });
 
 app.get("/rps", function(req, res){
-  res.sendFile(process.cwd() + '/public/rps/html/RPS-style-game.html')
-})
+  res.sendFile(process.cwd() + '/views/RPS-style-game.html')
+});
 
 app.post('/inquiry', function(req, res){
   console.log(req.body.name);
