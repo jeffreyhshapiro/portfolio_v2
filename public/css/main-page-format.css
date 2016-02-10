@@ -1,0 +1,44 @@
+.fa {
+  font-size: 8em;
+}
+
+#user {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#outcome {
+  text-align: center;
+  font-size: 1.5em;
+  height: 30px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#tracking-table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4em;
+  width: 100%
+}
+
+#reset-button {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  width: 100%;
+  font-style: bold;
+}
