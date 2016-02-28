@@ -26,7 +26,9 @@ $(document).ready(function(){
       .addClass("collection-item")
       .append(repoData.full_name);
 
-    return newLink;
+    var newLinkTd = $(newLink).append("<td>")
+
+    return newLinkTd;
 
   }
 

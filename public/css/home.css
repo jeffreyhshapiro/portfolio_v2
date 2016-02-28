@@ -47,7 +47,7 @@
     position: relative;
 }
 #scientistDNA:hover:after {
-    content: url(/images/scientist.jpg); /* no need for qoutes */
+    content: url(/images/scientist2.jpg); /* no need for qoutes */
     display: block;
     position: absolute;
     z-index: 9999;
